@@ -36,7 +36,7 @@ python3 run_summarization_no_trainer.py \
     --preprocessing_num_workers 1 \
     --num_train_epochs 16
 ```
-## Prediction
+## Inference
 After data preprocessing and model training, simply run the following shell script
 ```
 bash run.sh data/public.jsonl prediction.jsonl
